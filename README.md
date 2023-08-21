@@ -1,2 +1,1 @@
-[Hello] (https://quynhngandao.github.io/)
-[Welcome] (https://quynhngandao.github.io/quynhdao)
+[My Website](https://quynhngandao.github.io/quynhdao)
