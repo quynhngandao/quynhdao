@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quynhngandao.github.io/static/css/main.3e06f41b.css",
+    "main.js": "/quynhngandao.github.io/static/js/main.9a541fc9.js",
+    "index.html": "/quynhngandao.github.io/index.html",
+    "main.3e06f41b.css.map": "/quynhngandao.github.io/static/css/main.3e06f41b.css.map",
+    "main.9a541fc9.js.map": "/quynhngandao.github.io/static/js/main.9a541fc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e06f41b.css",
+    "static/js/main.9a541fc9.js"
+  ]
+}
