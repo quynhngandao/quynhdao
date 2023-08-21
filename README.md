@@ -1,1 +1,1 @@
-<a href="quynhngandao.github.io" target="_blank">My Website</a>
+[quynhngandao.github.io](https://quynhngandao.github.io/)
