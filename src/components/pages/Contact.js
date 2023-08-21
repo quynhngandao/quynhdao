@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import "../../App.css";
 /***** MUI *****/
 import {
@@ -14,7 +13,6 @@ import {
 } from "@mui/material";
 
 export default function Contact() {
-
 
   const handleClick = () => {
     (window.location = `mailto:nguy2884@umn.edu`);
