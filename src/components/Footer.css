@@ -135,6 +135,7 @@
 .website-rights {
   color: #fff;
   margin-bottom: 16px;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 820px) {
