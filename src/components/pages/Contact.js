@@ -35,11 +35,11 @@ export default function Contact() {
             component={Paper}
             elevation={6}
             square
-            sx={{ width: 500 }}
+            sx={{ minWidth: 500 }}
           >
             <Box
               sx={{
-                my: 3,
+                my: 2,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
@@ -54,7 +54,7 @@ export default function Contact() {
                 Contact Me
               </Typography>
               {/* REGISTRATION FORM INPUT FILED */}
-              <Box component="form" sx={{ m: 1, mt: 3, width: 400 }}>
+              <Box component="form" sx={{ m: 1, mt: 3, minWidth: 400 }}>
                 <InputLabel required htmlFor="name">
                   Name
                 </InputLabel>
@@ -80,7 +80,7 @@ export default function Contact() {
                   multiline
                   rows={5}
                   variant="outlined"
-                  sx={{ width: 400 }}
+                  sx={{ minWidth: 400 }}
                
                 />
 

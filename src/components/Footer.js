@@ -10,10 +10,10 @@ function Footer() {
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="social-logo">
+            {/* <Link to="/" className="social-logo">
               Quynh Dao
               <i class="fa-solid fa-code fa-bounce" />
-            </Link>
+            </Link> */}
           </div>
           <small class="website-rights">Quynh Dao © 2023</small>
           <div class="social-icons">
