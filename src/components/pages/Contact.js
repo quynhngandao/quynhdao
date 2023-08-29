@@ -18,15 +18,15 @@ export default function Contact() {
     (window.location = `mailto:nguy2884@umn.edu`);
   };
   return (
-    <Container component="main">
+    <Container component="main" >
       <Typography variant="h5" className="alert" role="alert"></Typography>
 
       <Box
         sx={{
-          marginTop: 10,
+          marginTop: 10
         }}
       >
-        <Grid container justifyContent="center">
+        <Grid container  justifyContent="center">
           <Grid
             item
             xs={12}
@@ -35,7 +35,7 @@ export default function Contact() {
             component={Paper}
             elevation={6}
             square
-            sx={{ minWidth: 500 }}
+            sx={{  maxWidth: 320, minWidth:300 }}
           >
             <Box
               sx={{
@@ -49,12 +49,22 @@ export default function Contact() {
                 component="h1"
                 fontFamily="Roboto Slab"
                 variant="h4"
-                fontWeight="900"
+                fontWeight="800"
               >
                 Contact Me
               </Typography>
               {/* REGISTRATION FORM INPUT FILED */}
-              <Box component="form" sx={{ m: 1, mt: 3, minWidth: 400 }}>
+              <Box component="form" sx={{ m: 1, mt: 3, maxWidth: 320, minWidth:300 }}>
+              <Box
+                  sx={{
+               
+                    "@media (max-width: 768px)": {
+                      width: "90%", 
+                      margin: 2, // Add some margin for spacing
+            
+                    },
+                  }}
+                >
                 <InputLabel required htmlFor="name">
                   Name
                 </InputLabel>
@@ -63,7 +73,7 @@ export default function Contact() {
                   fullWidth
                   name="name"
                   type="text"
-                 
+                  sx={{ minWidth: 270, maxWidth: 250 }}
                 />
                 <InputLabel htmlFor="email">Email</InputLabel>
                 <TextField
@@ -71,7 +81,7 @@ export default function Contact() {
                   fullWidth
                   name="name"
                   type="text"
-                
+                  sx={{ minWidth: 270, maxWidth: 250 }}
                 />
 
                 <InputLabel htmlFor="message">Message</InputLabel>
@@ -80,16 +90,17 @@ export default function Contact() {
                   multiline
                   rows={5}
                   variant="outlined"
-                  sx={{ minWidth: 400 }}
+                  sx={{ minWidth: 270}}
                
                 />
 
-                <Box sx={{ textAlign: "center" }}>
+                <Box sx={{ textAlign: "center" , ali:"center"}}>
                   {/* <a target="_blank" href="mailto:nguy2884@umn.edu"> */}
                   <Button
                     name="submit"
                     halfWidth
                     alignItems="center"
+                  
                     variant="contained"
                     sx={{
                       mt: 3,
@@ -101,6 +112,7 @@ export default function Contact() {
                   >
                     Contact Me
                   </Button>
+                  </Box>
                 </Box>
               </Box>
             </Box>

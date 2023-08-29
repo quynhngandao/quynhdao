@@ -1,9 +1,46 @@
 import React from "react";
 import { Box } from "@mui/material";
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import Popover from '@mui/material/Popover';
+import PopupState, { bindTrigger, bindPopover } from 'material-ui-popup-state';
 
-export default function PDF() {
-  return (
-    <Box
+export default function PDF () {
+  return  (
+  <PopupState variant="popover" popupId="demo-popup-popover">
+  {(popupState) => (
+    <div>
+      <Button variant="contained" {...bindTrigger(popupState)}>
+       View My Resume
+      </Button>
+      <Popover
+        {...bindPopover(popupState)}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'center',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'center',
+        }}
+      >
+          <div style={{ width: '100%' }}>
+        <iframe
+        title="pdfviewer"
+  
+        height="1000px"
+        src="https://docs.google.com/document/d/e/2PACX-1vQCZMj9SWUUxpLUONO0ve_yXXY3L-cQag20sAsrmdoNw9WYuh9YeEXAwsloAncbzlVdY018zpF7vmWS/pub?embedded=true"
+      >
+        
+      </iframe>
+      </div>
+      </Popover>
+    </div>
+  )}
+
+
+{/* 
+         <Box
       sx={{
         display: "flex",
         flexDirection: "column",
@@ -20,14 +57,9 @@ export default function PDF() {
         margin: "20px", // Add some margin around the content
         textAlign: "center",
       }}
-    >
-      <h2 class="mb-5">Resume</h2>
-      <iframe
-        title="pdfviewer"
-        width="100%"
-        height="1000px"
-        src="https://docs.google.com/document/d/e/2PACX-1vQCZMj9SWUUxpLUONO0ve_yXXY3L-cQag20sAsrmdoNw9WYuh9YeEXAwsloAncbzlVdY018zpF7vmWS/pub?embedded=true"
-      ></iframe>
-    </Box>
+    > */}
+       
+      </PopupState>
+      
   );
 }

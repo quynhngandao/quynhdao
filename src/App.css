@@ -10,8 +10,16 @@
 .experience,
 .contact {
   display: flex;
-  /* height: 90vh; */
+  /* height: 82vh; */
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+.main {
+
+}
+
 }
