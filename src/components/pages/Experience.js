@@ -27,16 +27,16 @@ export default function Experience() {
           boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#f9f9f9",
           textAlign: "center",
-          width: "70%",
-        marginTop:"25px",
+          width: 800,
+        margin:"25px",
         padding:"25px",
         }}
       >
         
-          <div class="resume-section-content"  style={{ textAlign: "center",  minWidth:"70%", }}>
-            <Typography variant="h3" fontFamily="fraunces" fontWeight="700" padding="15px">About Me</Typography>
+          <div class="resume-section-content"  style={{ textAlign: "center" }}>
+            <Typography variant="h3" fontFamily="fraunces" fontWeight="700" padding="10px">About Me</Typography>
             <PDF />
-            <p style={{padding:"15px"}}>
+            <p style={{padding:"10px"}}>
               I have contributed to projects, both independently and as part of
               a collaborative team, focusing on web application development. In
               addition to my tech background, I bring a diverse background that
