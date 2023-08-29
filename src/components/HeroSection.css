@@ -7,6 +7,15 @@ video {
   z-index: -2;
 } */
 
+.intro-paragraph {
+  font-family: 'fraunces';
+  font-weight: 900;
+}
+.intro-title {
+  font-family: 'fraunces';
+  font-weight: 900;
+}
+
 .hero-container {
   background: url('/public/images/background.jpeg') center center/cover no-repeat;
   min-height: 82vh;
@@ -76,4 +85,12 @@ video {
   .btn {
     width: 100%;
   }
+}
+
+@media screen and (min-height: 800px) {
+.hero-container {
+ 
+  min-height: 90vh;
+
+}
 }
