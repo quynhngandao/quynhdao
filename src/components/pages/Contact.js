@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import Footer from "../Footer";
 /***** MUI *****/
 import {
   Container,
@@ -18,12 +19,12 @@ export default function Contact() {
     (window.location = `mailto:nguy2884@umn.edu`);
   };
   return (
-    <Container component="main" >
-      <Typography variant="h5" className="alert" role="alert"></Typography>
-
+    <div>
+    <Container component="main" className="border-r-24">
       <Box
         sx={{
-          marginTop: 10
+          marginTop: 7, 
+          marginBottom:7,
         }}
       >
         <Grid container  justifyContent="center">
@@ -35,7 +36,8 @@ export default function Contact() {
             component={Paper}
             elevation={6}
             square
-            sx={{  maxWidth: 320, minWidth:300 }}
+
+            sx={{  maxWidth: 300, minWidth:250, borderRadius:"24px", px:0, mx:0 }}
           >
             <Box
               sx={{
@@ -88,7 +90,7 @@ export default function Contact() {
                 <TextField
                   id="filled-multiline-static"
                   multiline
-                  rows={5}
+                  rows={3}
                   variant="outlined"
                   sx={{ minWidth: 270}}
                
@@ -120,5 +122,7 @@ export default function Contact() {
         </Grid>
       </Box>
     </Container>
+    <Footer/>
+    </div>
   );
 }
