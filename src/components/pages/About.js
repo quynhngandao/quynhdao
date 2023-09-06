@@ -11,6 +11,7 @@ export default function About() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        textAlign:"center"
       }}
     >
       {/* INTEREST */}
@@ -55,7 +56,7 @@ export default function About() {
             <br />
             <p>I have a bunny, his name is Sr. Fluff</p>
             <img
-              style={{ maxWidth: "250px", maxHeight: "150px", marginTop:15, marginBottom:0, borderRadius:24 }}
+              style={{ maxWidth: "250px", maxHeight: "150px", marginTop:15, marginBottom:0, borderRadius:24, marginRight:"auto", marginLeft:"auto" }}
               alt="fluff"
               src="https://scontent.ffcm1-2.fna.fbcdn.net/v/t1.6435-9/65309185_2545513058813810_2896765178395754496_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Qr6aUewnaJsAX8Oo_mz&_nc_ht=scontent.ffcm1-2.fna&oh=00_AfCqZ_QUoCdj-qGiVDwmrta-Z8kWDfrvowRMkyczI6Kd2w&oe=650A6E81"
             />
