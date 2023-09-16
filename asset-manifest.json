@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/quynhdao/static/css/main.136aafd5.css",
-    "main.js": "/quynhdao/static/js/main.317c4152.js",
+    "main.css": "/quynhdao/static/css/main.8dd543d6.css",
+    "main.js": "/quynhdao/static/js/main.c0db679c.js",
+    "static/media/genderstanding.png": "/quynhdao/static/media/genderstanding.c2c6a5db3d48e28aba88.png",
+    "static/media/playwme.png": "/quynhdao/static/media/playwme.d36ee684567a853ee582.png",
+    "static/media/resume.pdf": "/quynhdao/static/media/resume.1f02b948a6dd812c4e1d.pdf",
     "static/media/background.jpeg": "/quynhdao/static/media/background.729aac1cbccc65401001.jpeg",
     "index.html": "/quynhdao/index.html",
-    "main.136aafd5.css.map": "/quynhdao/static/css/main.136aafd5.css.map",
-    "main.317c4152.js.map": "/quynhdao/static/js/main.317c4152.js.map"
+    "main.8dd543d6.css.map": "/quynhdao/static/css/main.8dd543d6.css.map",
+    "main.c0db679c.js.map": "/quynhdao/static/js/main.c0db679c.js.map"
   },
   "entrypoints": [
-    "static/css/main.136aafd5.css",
-    "static/js/main.317c4152.js"
+    "static/css/main.8dd543d6.css",
+    "static/js/main.c0db679c.js"
   ]
 }
