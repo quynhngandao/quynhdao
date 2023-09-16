@@ -19,7 +19,8 @@ export default function PDF() {
               height="100%"
                 className="resume"
                 title="pdfviewer"
-                src="https://docs.google.com/document/d/e/2PACX-1vQCZMj9SWUUxpLUONO0ve_yXXY3L-cQag20sAsrmdoNw9WYuh9YeEXAwsloAncbzlVdY018zpF7vmWS/pub?embedded=true"
+                // src="https://docs.google.com/document/d/e/2PACX-1vQCZMj9SWUUxpLUONO0ve_yXXY3L-cQag20sAsrmdoNw9WYuh9YeEXAwsloAncbzlVdY018zpF7vmWS/pub?embedded=true"
+                src="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:e99c9117-b6ea-4203-9c18-7c4b33292977"
               ></iframe>
             </Box>
        

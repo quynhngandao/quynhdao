@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import resume from "../resume.pdf"
 
 export default function Contact() {
   // const handleClick = () => {
@@ -68,14 +69,18 @@ export default function Contact() {
 
         <section>
           <h3>Resume</h3>
+          <ul className="icons alt">
+          <li>
           <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://docs.google.com/document/d/e/2PACX-1vQCZMj9SWUUxpLUONO0ve_yXXY3L-cQag20sAsrmdoNw9WYuh9YeEXAwsloAncbzlVdY018zpF7vmWS/pub?embedded=true"
-              className="icon fa-regular fa-file-pdf"
+              href={resume} 
+              className="icon fa-regular alt fa-file-pdf"
             >
                 <span className="label">Resume</span>
             </a>
+            </li>
+            </ul>
         </section>
       </section>
     </div>
