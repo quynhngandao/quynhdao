@@ -1,14 +1,15 @@
-import React from 'react'
-import PDF from '../PDF'
+import React from "react";
+import PDF from "../PDF";
+import { Link } from "@mui/material";
 
 function Experience() {
   return (
-    <div className='flex justify-center items-center h-screen'>
-        <div className=''>
-        <PDF/>
-        </div>
-        </div>
-  )
+<div>
+
+  
+</div>
+   
+  );
 }
 
-export default Experience
+export default Experience;

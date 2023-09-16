@@ -1,8 +1,92 @@
-import React from 'react';
-import '../../App.css';
-import Cards from '../Cards';
+import React from "react";
+import genderstanding from "./genderstanding.png";
+import playwme from "./playwme.png";
+import { Card, CardMedia, CardContent, CardActionArea } from "@mui/material";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-export default function Project() {
-  return <><h1 className='projects'> <Cards/> </h1>
-  </> 
+function Projects() {
+  return (
+    <div className="flex justify-center py-5">
+      <div style={{ width: "95%" }} className="flex flex-col gap-4 sm:flex-row">
+        <div className="w-full sm:w-1/2 md:w-full lg:w-full ">
+          <Card className="w-full text-center bg-white">
+            <h2 className="pt-4 pb-0">
+              <a href="https://genderstanding-116c2268e46c.herokuapp.com/#/welcome">
+                Genderstanding
+              </a>
+            </h2>
+
+            <CardMedia
+              component="img"
+              image={genderstanding}
+              alt="genderstanding"
+              sx={{
+                maxHeight: 350,
+                maxWidth: "90%",
+                mx: "auto", // Center horizontally
+                my: 2, // Add some vertical margin
+                display: "block", // Remove any default inline styles
+              }}
+            />
+            <CardContent sx={{ py: 0 }}>
+              <p className="text-center ">
+                An invite-only social media app that allow users to invite
+                friends and family to ask anonymous question
+              </p>
+            </CardContent>
+            <ul className="actions special">
+              <li>
+                <a
+                  href="https://genderstanding-116c2268e46c.herokuapp.com/#/welcome"
+                  className="button"
+                >
+                  See Project
+                </a>
+              </li>
+            </ul>
+          </Card>
+        </div>
+
+        <div className="w-full">
+          <Card className="text-center bg-white">
+            <h2 className="pt-4">
+              <a href="https://playwme-1cf74549f561.herokuapp.com/#/home">
+                PLAYwME
+              </a>
+            </h2>
+            <CardMedia
+              component="img"
+              image={playwme}
+              alt="playwme"
+              sx={{
+                maxHeight: 350,
+                maxWidth: "90%",
+                mx: "auto", // Center horizontally
+                my: 2, // Add some vertical margin
+                display: "block", // Remove any default inline styles
+              }}
+            />
+            <CardContent sx={{ py: 0 }}>
+              <p className="text-center">
+                An invite-only social media app that allow users to invite
+                friends and family to ask anonymous question
+              </p>
+            </CardContent>
+            <ul className="actions special">
+              <li>
+                <a
+                  href="https://genderstanding-116c2268e46c.herokuapp.com/#/welcome"
+                  className="button"
+                >
+                  See Project
+                </a>
+              </li>
+            </ul>
+          </Card>
+        </div>
+      </div>
+    </div>
+  );
 }
+
+export default Projects;

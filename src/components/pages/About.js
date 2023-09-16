@@ -5,68 +5,69 @@ import { Box, Typography } from "@mui/material";
 
 export default function About() {
   return (
-    <div
-      className="container"
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        textAlign:"center"
-      }}
-    >
-      {/* INTEREST */}
-      <Box className="about "
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          fontFamily: "roboto slab",
-          border: "2px solid #ccc",
-          borderRadius: "24px",
-          boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
-          backgroundColor: "#f9f9f9",
-          textAlign: "center",
-          width: 800,
-        margin:"25px",
-        padding:"25px",
-        }}
-      >
-        
-          <div class="resume-section-content"  style={{ textAlign: "center" }}>
-            <Typography variant="h3" fontFamily="fraunces" fontWeight="700" padding="10px">About Me</Typography>
-            <p style={{padding:"10px"}}>
-              I have contributed to projects, both independently and as part of
-              a collaborative team, focusing on web application development. In
-              addition to my tech background, I bring a diverse background that
-              encompasses experience in the healthcare industry, customer
-              service sector, a passion for animal care, and an interest in the
-              evolving Web3 technology. My commitment to continuous learning and
-              problem-solving drives me to seek opportunities where I can apply
-              my skills and experience to make a positive impact.{" "}
-            </p>
-            <p>
-              Apart from full-stack development, I enjoy bouldering and playing
-              pickleball in the summer. During the winter, I enjoy snowboarding.
-              I love anything horror and mystery/detective genres and anime. I
-              am a big foodie so I spend a large amount of my free time
-              exploring local restaurants.
-            </p>
+    <div id="about" className="relative overflow-hidden bg-white ">
+      <div className="mx-auto max-w-7xl">
+        <div className="relative z-10 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          <svg
+            className="absolute inset-y-0 right-0 hidden h-full text-white transform translate-x-1/2 w-52 lg:block"
+            fill="currentColor"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <polygon points="50,0, 100,0 50,100 0,200"></polygon>
+          </svg>
 
-            <br />
-            <p>I have a bunny, his name is Sr. Fluff</p>
-            <img
-              style={{ maxWidth: "250px", maxHeight: "150px", marginTop:15, marginBottom:0, borderRadius:24, marginRight:"auto", marginLeft:"auto" }}
-              alt="fluff"
-              src="https://scontent.ffcm1-2.fna.fbcdn.net/v/t1.6435-9/65309185_2545513058813810_2896765178395754496_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Qr6aUewnaJsAX8Oo_mz&_nc_ht=scontent.ffcm1-2.fna&oh=00_AfCqZ_QUoCdj-qGiVDwmrta-Z8kWDfrvowRMkyczI6Kd2w&oe=650A6E81"
-            />
-          </div>
-          
+          <div className="pt-1"></div>
 
-       
-      </Box>
+          <main className="items-center justify-center max-w-7xl sm:mt-12 sm:px-6 md:mt-16 md:px-8 lg:mt-20 lg:px-10 xl:mt-24">
+            <div className=" sm:text-center lg:text-center">
+              <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-900 sm:text-3xl md:text-4xl">
+                About me
+              </h2>
+              <div className="mx-5 text-sm text-center">
+                <p className="sm:px-2 md:px-10 lg:px-10">
+                  I'm a graduate from the University of Minnesota with a premed
+                  background. I have a diverse background working with both
+                  animals and people in healthcare, customer service, tutoring,
+                  and research. These experiences have equipped me with a wide
+                  range of skills and perspectives. Recently, I made a
+                  transition into the tech industry because I was drawn to an
+                  environment that fosters continuous learning and
+                  problem-solving.
+                </p>
 
-      
+                <p className="sm:px-2 md:px-10 lg:px-10">
+                  I had the opportunity to contribute to various projects, both
+                  independently and as part of collaborative teams, with a focus
+                  on full-stack development. My commitment to learning drives me
+                  to seek opportunities to apply my skills to make a positive
+                  impact through technology.
+                </p>
+
+                <p className="sm:px-2 md:px-10 lg:px-10">
+                  Outside of full-stack development, I like rock climbing,
+                  playing pickleball, and snowboarding. I enjoy horror and
+                  mystery/detective genres. Because I am a big foodie, I spend a
+                  lot of my free time exploring local restaurants. Additionally,
+                  I take pride in being a longtime volunteer at the Animal
+                  Humane Society.
+                </p>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <div className=" lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-900 sm:text-3xl md:text-4xl">
+          Sr. Fluff
+        </h2>
+        <img
+          className="object-cover object-bottom w-full sm:h-72 md:h-full lg:w-full lg:h-full"
+          src="https://scontent.ffcm1-2.fna.fbcdn.net/v/t1.6435-9/65309185_2545513058813810_2896765178395754496_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Qr6aUewnaJsAX8Oo_mz&_nc_ht=scontent.ffcm1-2.fna&oh=00_AfCqZ_QUoCdj-qGiVDwmrta-Z8kWDfrvowRMkyczI6Kd2w&oe=650A6E81"
+          alt=""
+        />
+      </div>
     </div>
   );
 }
