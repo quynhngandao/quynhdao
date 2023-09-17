@@ -7,11 +7,11 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 function Projects() {
   return (
     <div className="flex justify-center py-5">
-      <div style={{ width: "95%" }} className="flex flex-col gap-4 sm:flex-row">
+      <div style={{ width: "95%" }} className="flex flex-col gap-4 sm:flex-row ">
         <div className="w-full sm:w-1/2 md:w-full lg:w-full ">
-          <Card className="w-full text-center bg-white">
+          <Card sx={{borderRadius:4}} className="w-full text-center">
             <h2 className="pt-4 pb-0">
-              <a href="https://genderstanding-116c2268e46c.herokuapp.com/#/welcome">
+              <a style={{color:"#36373a"}} href="https://genderstanding-116c2268e46c.herokuapp.com/#/welcome">
                 Genderstanding
               </a>
             </h2>
@@ -28,7 +28,7 @@ function Projects() {
                 display: "block", // Remove any default inline styles
               }}
             />
-            <CardContent sx={{ py: 0 }}>
+                 <CardContent sx={{ py: 0, mx:4, color:"#36373a" }}>
               <p className="text-center ">
                 An invite-only social media app that allow users to invite
                 friends and family to ask anonymous question
@@ -36,7 +36,7 @@ function Projects() {
             </CardContent>
             <ul className="actions special">
               <li>
-                <a
+                <a style={{borderRadius:10, verticalAlign:"middle", color:"#36373a" }}
                   href="https://genderstanding-116c2268e46c.herokuapp.com/#/welcome"
                   className="button"
                 >
@@ -48,9 +48,9 @@ function Projects() {
         </div>
 
         <div className="w-full">
-          <Card className="text-center bg-white">
+          <Card sx={{borderRadius:4}} className="text-center ">
             <h2 className="pt-4">
-              <a href="https://playwme-1cf74549f561.herokuapp.com/#/home">
+              <a style={{color:"#36373a"}} href="https://playwme-1cf74549f561.herokuapp.com/#/home">
                 PLAYwME
               </a>
             </h2>
@@ -66,15 +66,15 @@ function Projects() {
                 display: "block", // Remove any default inline styles
               }}
             />
-            <CardContent sx={{ py: 0 }}>
-              <p className="text-center">
+            <CardContent sx={{ py: 0, mx:4, color:"#36373a"}}>
+              <p className="text-center" >
                 An invite-only social media app that allow users to invite
                 friends and family to ask anonymous question
               </p>
             </CardContent>
             <ul className="actions special">
               <li>
-                <a
+                <a style={{borderRadius:10,  verticalAlign:"middle" , color:"#36373a"}}
                   href="https://genderstanding-116c2268e46c.herokuapp.com/#/welcome"
                   className="button"
                 >

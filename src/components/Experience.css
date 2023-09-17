@@ -1,10 +1,18 @@
-@media screen and (max-width: 768px) {
-p {
-  font-size: 12px;
-  font-family: "fraunces";
-  margin: 5px;
-  padding: 5px;
-
+.experience-grid {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
 }
 
+.col-left {
+  flex: 1;
+}
+
+.line {
+  border-left: 2px solid #ccc;
+  height: 100%; /* Vertical line spanning the full height */
+  margin: 0 16px; /* Adjust as needed */
+}
+
+.col-right {
+  flex: 1;
 }

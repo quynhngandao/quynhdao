@@ -1,7 +1,6 @@
 import React from "react";
 import "../../App.css";
 import "../../components/Experience.css";
-import { Box, Typography } from "@mui/material";
 
 export default function About() {
   return (
@@ -22,7 +21,7 @@ export default function About() {
 
           <main className="items-center justify-center max-w-7xl sm:mt-12 sm:px-6 md:mt-16 md:px-8 lg:mt-20 lg:px-10 xl:mt-24">
             <div className=" sm:text-center lg:text-center">
-              <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-900 sm:text-3xl md:text-4xl">
+              <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-700 sm:text-3xl md:text-4xl">
                 About me
               </h2>
               <div className="mx-5 text-sm text-center">
@@ -59,7 +58,7 @@ export default function About() {
         </div>
       </div>
       <div className=" lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-900 sm:text-3xl md:text-4xl">
+        <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-700 sm:text-3xl md:text-4xl">
           Sr. Fluff
         </h2>
         <img

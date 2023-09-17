@@ -7,29 +7,29 @@ export default function Contact() {
   //   window.location = `mailto:nguy2884@umn.edu`;
   // };
   return (
-    <div div className="">
-    <div id="footer" className="items-center justify-center">
+    <div  className="">
+    <div  style={{borderRadius:10, verticalAlign:"middle" }} id="footer" className="items-center justify-center">
       <section className="">
         <form >
           {" "}
-          <h2 className="text-center">Contact Me</h2>
+          <h2 style={{color:"#50555b"}} className="text-center">Contact Me</h2>
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input  style={{borderRadius:10, verticalAlign:"middle" }} type="text" name="name" id="name" />
             </div>
             <div className="field">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input  style={{borderRadius:10, verticalAlign:"middle" }} type="text" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="3"></textarea>
+              <textarea   style={{borderRadius:10, verticalAlign:"middle" }} name="message" id="message" rows="3"></textarea>
             </div>
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send Message" />
+              <input style={{borderRadius:10, verticalAlign:"middle" }} type="submit" value="Send Message" />
             </li>
           </ul>
         </form>

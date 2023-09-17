@@ -177,7 +177,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
-		margin: 0 0 rem 0;
+		margin: 0 0 0 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2755,7 +2755,7 @@ input, select, textarea {
 				-ms-flex-direction: column;
 				flex-direction: column;
 				margin-left: 0;
-				width: 100% !important;
+				width: 50% !important;
 			}
 
 				ul.actions:not(.fixed) li {
@@ -2769,11 +2769,11 @@ input, select, textarea {
 					flex-shrink: 1;
 					padding: 1rem 0 0 0;
 					text-align: center;
-					width: 100%;
+					width: 50%;
 				}
 
 					ul.actions:not(.fixed) li > * {
-						width: 100%;
+						width: 50%;
 					}
 
 					ul.actions:not(.fixed) li:first-child {
@@ -2785,7 +2785,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 50%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3982,7 +3982,7 @@ input, select, textarea {
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #50555b;
 		}
 
 		#footer blockquote {

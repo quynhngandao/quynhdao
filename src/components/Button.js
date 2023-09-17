@@ -34,7 +34,8 @@ export const Button = ({
   return (
     <Link to='/contact' className='btn-mobile'>
       <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+       style={{borderRadius:10, verticalAlign:"middle" }}
+        className={`btn ${checkButtonStyle} ${checkButtonSize} sm:rounded-lg`}
         onClick={onClick}
         type={type}
       >
