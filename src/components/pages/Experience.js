@@ -12,7 +12,7 @@ function Experience() {
               Associate of Arts, Liberal Arts
             </span>
           </ul>
-          <li className="mt-4 text-md sm:text-xs md-text-sm">
+          <li className="mt-4 text-md md-text-sm">
             Attended PSEO during my last 2 years of high school
           </li>
         </div>
@@ -25,17 +25,17 @@ function Experience() {
               Bachelor of Science, Animal Science
             </span>
           </ul>
-          <li className="mt-4 text-md sm:text-xs md-text-sm">
+          <li className="mt-4 text-md md-text-sm">
             Studied Animal Science while taking Premed prerequisites.
           </li>
-          <li className="mt-4 text-md sm:text-xs md-text-sm">
+          <li className="mt-4 text-md md-text-sm">
             Worked various jobs as a waitress, tutor, undergrad research, and
             healthcare.
           </li>
-          <li className="mt-2 text-md sm:text-xs md-text-sm">
+          <li className="mt-2 text-md md-text-sm">
             Served as a board member for student groups
           </li>
-          <li className="mt-2 text-md sm:text-xs md-text-sm">
+          <li className="mt-2 text-md md-text-sm">
             Volunteered at hospitals and animal shelters
           </li>
         </div>
@@ -51,14 +51,14 @@ function Experience() {
               Full-Stack Software Engineering Certification
             </span>
           </ul>
-          <li className="mt-4 text-md sm:text-xs md-text-sm">
+          <li className="mt-4 text-md md-text-sm">
             Exploration of modern technologies/languages including C#/.Net, Git,
             Multer, Heroku, Redis, Docker
           </li>
-          <li className="mt-4 text-md sm:text-xs md-text-sm">
+          <li className="mt-4 text-md md-text-sm">
             Designed projects wireframes and collaborated with UX/UI designers
           </li>
-          <li className="mt-4 text-md sm:text-xs md-text-sm">
+          <li className="mt-4 text-md md-text-sm">
             Experience in public speaking, presentations, professional skill
             development, diversity, equity, and inclusion
           </li>
