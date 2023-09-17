@@ -3,9 +3,9 @@ import "../../App.css";
 import resume from "../resume.pdf"
 
 export default function Contact() {
-  // const handleClick = () => {
-  //   window.location = `mailto:nguy2884@umn.edu`;
-  // };
+  const handleClick = () => {
+    window.location = `mailto:nguy2884@umn.edu`;
+  };
   return (
     <div  className="">
     <div  style={{borderRadius:10, verticalAlign:"middle" }} id="footer" className="items-center justify-center">
@@ -29,7 +29,7 @@ export default function Contact() {
           </div>
           <ul className="actions">
             <li>
-              <input style={{borderRadius:10, verticalAlign:"middle" }} type="submit" value="Send Message" />
+              <input onClick={handleClick} style={{borderRadius:10, verticalAlign:"middle" }} type="submit" value="Send Message" />
             </li>
           </ul>
         </form>
