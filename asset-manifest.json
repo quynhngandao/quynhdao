@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/quynhdao/static/css/main.c5719668.css",
-    "main.js": "/quynhdao/static/js/main.c1c11426.js",
+    "main.js": "/quynhdao/static/js/main.79ff5bfb.js",
     "static/media/genderstanding.png": "/quynhdao/static/media/genderstanding.c2c6a5db3d48e28aba88.png",
     "static/media/playwme.png": "/quynhdao/static/media/playwme.d36ee684567a853ee582.png",
     "static/media/resume.pdf": "/quynhdao/static/media/resume.1f02b948a6dd812c4e1d.pdf",
     "static/media/background.jpeg": "/quynhdao/static/media/background.729aac1cbccc65401001.jpeg",
     "index.html": "/quynhdao/index.html",
     "main.c5719668.css.map": "/quynhdao/static/css/main.c5719668.css.map",
-    "main.c1c11426.js.map": "/quynhdao/static/js/main.c1c11426.js.map"
+    "main.79ff5bfb.js.map": "/quynhdao/static/js/main.79ff5bfb.js.map"
   },
   "entrypoints": [
     "static/css/main.c5719668.css",
-    "static/js/main.c1c11426.js"
+    "static/js/main.79ff5bfb.js"
   ]
 }
