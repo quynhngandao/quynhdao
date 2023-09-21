@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="">
       <h2 className="my-10 text-2xl font-extrabold tracking-tight text-center text-gray-200 sm:text-3xl md:text-4xl">
-        <a 
+        <a
           href="https://github.com/quynhngandao"
           target="_blank"
           rel="noopener noreferrer"
@@ -16,7 +16,7 @@ function Projects() {
         </a>
       </h2>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <div
           style={{ width: "95%" }}
           className="flex flex-col gap-8 sm:flex-row "
@@ -49,15 +49,16 @@ function Projects() {
                   mx: "auto", // Center horizontally
                   my: 2, // Add some vertical margin
                   display: "block", // Remove any default inline styles
+                  zIndex:10
                 }}
               />
-              <CardContent sx={{ pb: 0, mx: 5, color: "white", flexGrow: 1 }}>
+              <CardContent sx={{ zIndex:10, pb: 0, mx: 5, color: "white", flexGrow: 1 }}>
                 <p className="text-center">
                   A full-stack mobile-first web app that allows a safe space for
                   users to invite friends and family to ask anonymous questions
                 </p>
               </CardContent>
-              <ul className="actions special">
+              <ul className="z-10 actions special">
                 <li>
                   <a
                     style={{
@@ -106,16 +107,17 @@ function Projects() {
                   mx: "auto", // Center horizontally
                   my: 2, // Add some vertical margin
                   display: "block", // Remove any default inline styles
+                  zIndex:10
                 }}
               />
-              <CardContent sx={{ pb: 0, mx: 5, color: "white", flexGrow: 1 }}>
+              <CardContent sx={{ zIndex:10, pb: 0, mx: 5, color: "white", flexGrow: 1 }}>
                 <p className="text-center">
                   A full-stack web application that allow users to connect with
                   local shelters and schedule playtime with local shelter
                   animals
                 </p>
               </CardContent>
-              <ul className="actions special">
+              <ul className="z-10 actions special">
                 <li>
                   <a
                     style={{

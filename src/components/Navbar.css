@@ -1,6 +1,6 @@
 .navbar {
  /* color: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(26, 23, 23) 100%); */
-  background-color:  #090e16;
+  background-color:  #040408;
   /* height: 80px; */
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
   /* height: 80px; */
   /* max-width: 1500px; */
   font-weight: 700;
-background-color: #090e16;
+background-color: #040408;
   justify-content: center;
   width: 100%;
   font-size: 1.1rem;
@@ -78,6 +78,9 @@ background-color: #090e16;
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
+.nav-links.active {
+  color: #18bfef; 
+}
 
 .fa-bars {
   color: #fff;
@@ -96,7 +99,7 @@ background-color: #090e16;
     display: flex;
     align-items: center;
     font-weight: 700;
-    background-color: rgb(20, 20, 20);
+    background-color: #040408;
 }
 
 }
@@ -122,7 +125,7 @@ background-color: #090e16;
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #040408;
     top: 100%;
     left: 0;
     opacity: 1;

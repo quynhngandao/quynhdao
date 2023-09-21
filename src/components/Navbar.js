@@ -108,6 +108,7 @@ function Navbar() {
                 duration={500}
                 onClick={closeMobileMenu}
                 className="nav-links"
+                activeClassName="active"
               >
                 About
               </ScrollLink>
@@ -126,6 +127,7 @@ function Navbar() {
                 duration={500}
                 onClick={closeMobileMenu}
                 className="nav-links"
+                activeClassName="active"
               >
                 Portfolio
               </ScrollLink>
@@ -148,6 +150,7 @@ function Navbar() {
                 duration={500}
                 onClick={closeMobileMenu}
                 className="nav-links"
+                activeClassName="active"
               >
                 Experience
               </ScrollLink>
@@ -168,6 +171,7 @@ function Navbar() {
               to="/contact"
               className="nav-links-mobile"
               onClick={handleContactClick}
+              activeClassName="active"
             >
               Contact
             </RouterLink>
