@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div id="about" >
     <div className="relative overflow-hidden bg-white ">
-      <div className="mx-auto  md:max-w-8xl">
+      <div className="mx-auto md:max-w-8xl">
         <div className="relative z-10 bg-white sm:pb-16 md:pb-20 md:max-w-3xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
             className="absolute inset-y-0 right-0 hidden h-full text-white transform translate-x-1/2 w-60 lg:block"
@@ -64,7 +64,7 @@ export default function About() {
       </div>
       <div className=" lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-700 sm:text-3xl md:text-4xl">
-        <a href="#/animals">  Sr. Fluff </a>
+         Sr. Fluff 
         </h2>
         <img
           className="object-cover object-bottom w-full sm:h-72 md:h-full lg:w-full lg:h-full"
