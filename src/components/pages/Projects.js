@@ -5,7 +5,7 @@ import { Card, CardMedia, CardContent, CardActionArea } from "@mui/material";
 
 function Projects() {
   return (
-    <div className="p-4">
+    <div className="">
       <h2 className="my-10 text-2xl font-extrabold tracking-tight text-center text-gray-200 sm:text-3xl md:text-4xl">
         <a 
           href="https://github.com/quynhngandao"
