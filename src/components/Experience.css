@@ -16,3 +16,8 @@
 .col-right {
   flex: 1;
 }
+
+.p {
+  word-spacing: 0;
+  padding: 0;
+}

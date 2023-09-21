@@ -1,35 +1,60 @@
 import React from "react";
 import "../../App.css";
-import resume from "../resume.pdf"
+import resume from "../resume.pdf";
 
 export default function Contact() {
   const handleClick = () => {
     window.location = `mailto:nguy2884@umn.edu`;
   };
   return (
-    <div  className="">
-    <div  style={{borderRadius:10, verticalAlign:"middle" }} id="footer" className="items-center justify-center">
-      <section className="">
-        <form >
-          {" "}
-          <h2 style={{color:"#50555b"}} className="text-center">Contact Me</h2>
+    <div
+      style={{ borderRadius: 10, verticalAlign: "middle" }}
+      id="footer"
+      className="items-center justify-center"
+    >
+      <section >
+      <h2 style={{ color: "#50555b" }} className="text-center ">
+            Contact Me
+          </h2>
+        <form>
+       
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Name</label>
-              <input  style={{borderRadius:10, verticalAlign:"middle" }} type="text" name="name" id="name" />
+              <input
+                style={{ borderRadius: 10, verticalAlign: "middle" }}
+                type="text"
+                name="name"
+                id="name"
+              />
             </div>
             <div className="field">
               <label htmlFor="email">Email</label>
-              <input  style={{borderRadius:10, verticalAlign:"middle" }} type="text" name="email" id="email" />
+              <input
+                style={{ borderRadius: 10, verticalAlign: "middle" }}
+                type="text"
+                name="email"
+                id="email"
+              />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea   style={{borderRadius:10, verticalAlign:"middle" }} name="message" id="message" rows="3"></textarea>
+              <textarea
+                style={{ borderRadius: 10, verticalAlign: "middle" }}
+                name="message"
+                id="message"
+                rows="3"
+              ></textarea>
             </div>
           </div>
           <ul className="actions">
             <li>
-              <input onClick={handleClick} style={{borderRadius:10, verticalAlign:"middle" }} type="submit" value="Send Message" />
+              <input
+                onClick={handleClick}
+                style={{ borderRadius: 10, verticalAlign: "middle" }}
+                type="submit"
+                value="Send Message"
+              />
             </li>
           </ul>
         </form>
@@ -64,26 +89,24 @@ export default function Contact() {
               <span className="label">GitHub</span>
             </a>
           </li>
-         
         </ul>
 
         <section>
           <h3>Resume</h3>
           <ul className="icons alt">
-          <li>
-          <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={resume} 
-              className="icon fa-regular alt fa-file-pdf"
-            >
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={resume}
+                className="icon fa-regular alt fa-file-pdf"
+              >
                 <span className="label">Resume</span>
-            </a>
+              </a>
             </li>
-            </ul>
+          </ul>
         </section>
       </section>
-    </div>
     </div>
   );
 }

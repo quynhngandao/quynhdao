@@ -6,7 +6,9 @@ function Footer() {
 
 
   return (
-    <div className="footer-container">
+    <>
+
+    <div className="footer-container">    
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
@@ -65,6 +67,7 @@ function Footer() {
         </div>
       </section>
     </div>
+    </>
   );
 }
 
