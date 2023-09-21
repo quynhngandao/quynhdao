@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "../../components/Experience.css";
+import fluff from '../pages/fluff.jpeg'
 
 export default function About() {
   return (
@@ -68,8 +69,7 @@ export default function About() {
         </h2>
         <img
           className="object-cover object-bottom w-full sm:h-72 md:h-full lg:w-full lg:h-full"
-          src="https://camo.githubusercontent.com/7b6d7cf8f8ee80c529bad7438583345cc15e2b4bf376b4272099842ca832fda6/68747470733a2f2f73636f6e74656e742d6d7370312d312e78782e666263646e2e6e65742f762f74312e363433352d392f36353331353630305f323534353531323534353438303532385f313230323933373432353236353935303732305f6e2e6a70673f5f6e635f6361743d313031266363623d312d37265f6e635f7369643d376638633738265f6e635f6f68633d4c775959423841305278634158396834383778265f6e635f68743d73636f6e74656e742d6d7370312d312e7878266f683d30305f41664371676e4f6c63793362384e533758734c6f775a665744435974435f455577597834713656527270756c4b77266f653d3635303231304434"   alt=""
-        />
+          src={fluff} alt="sr.fluff"  />
       </div>
     </div>
     </div>
