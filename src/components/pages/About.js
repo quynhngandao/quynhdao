@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div id="about" >
     <div className="relative overflow-hidden bg-white ">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto md:max-w-7xl ">
         <div className="relative z-10 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
             className="absolute inset-y-0 right-0 hidden h-full text-white transform translate-x-1/2 w-52 lg:block"
@@ -20,8 +20,9 @@ export default function About() {
 
           <div className="pt-1"></div>
 
-          <main className="items-center justify-center max-w-7xl sm:mt-12 sm:px-6 md:mt-16 md:px-8 lg:mt-20 lg:px-10 xl:mt-24">
-            <div className=" sm:text-center lg:text-center">
+          <main className="items-center justify-center lg:max-w-7xl sm:mt-12 sm:px-6 md:mt-16 md:px-8 lg:mt-20 lg:px-10">
+
+            <div className=" sm:text-center lg:text-center md:text-center">
               <h2 className="my-6 text-2xl font-extrabold tracking-tight text-center text-gray-700 sm:text-3xl md:text-4xl">
               <a
               target="_blank"
