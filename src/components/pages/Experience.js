@@ -4,8 +4,8 @@ import resume from "../resume.pdf";
 function Experience() {
   return (
     <div className="pr-2 m-4">
-      <h2 className="my-10 text-2xl font-extrabold tracking-tight text-center text-gray-200 sm:text-3xl md:text-4xl">
-        <a href={resume} target="_blank" rel="noopener noreferrer">
+      <h2 className="my-10 text-4xl font-extrabold tracking-tight text-center text-gray-200 md:text-5xl">
+            <a href={resume} target="_blank" rel="noopener noreferrer">
           Experience
         </a>
       </h2>
