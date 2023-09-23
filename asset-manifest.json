@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.5f1e98f3.css",
-    "main.js": "/static/js/main.48cdb0e1.js",
+    "main.js": "/static/js/main.bb1a8d52.js",
     "static/media/video.mp4": "/static/media/video.cf4c4bb2dde62f153cc6.mp4",
     "static/media/fluff.jpeg": "/static/media/fluff.8232c6583e5ad72870d7.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.36fc00f3ee8949d89a5a.pdf",
     "static/media/genderstanding.png": "/static/media/genderstanding.c2c6a5db3d48e28aba88.png",
     "static/media/playwme.png": "/static/media/playwme.d36ee684567a853ee582.png",
-    "static/media/resume.pdf": "/static/media/resume.1f02b948a6dd812c4e1d.pdf",
     "index.html": "/index.html",
     "main.5f1e98f3.css.map": "/static/css/main.5f1e98f3.css.map",
-    "main.48cdb0e1.js.map": "/static/js/main.48cdb0e1.js.map"
+    "main.bb1a8d52.js.map": "/static/js/main.bb1a8d52.js.map"
   },
   "entrypoints": [
     "static/css/main.5f1e98f3.css",
-    "static/js/main.48cdb0e1.js"
+    "static/js/main.bb1a8d52.js"
   ]
 }
