@@ -48,16 +48,16 @@ function HeroSection() {
       xlargeScreen: 90,
       largeScreen: 50,
       mediumScreen: 40,
-      smallScreen: 25,
-      xsmallScreen: 10,
+      smallScreen: 20,
+      xsmallScreen: 15,
     };
   
     const fontSizes2 = {
       xlargeScreen: 100,
       largeScreen: 60,
       mediumScreen: 50,
-      smallScreen: 30,
-      xsmallScreen: 15,
+      smallScreen: 25,
+      xsmallScreen: 20,
     };
   
     const handleResize = () => {
@@ -80,8 +80,8 @@ function HeroSection() {
         setFontSize2(fontSizes2.xlargeScreen);
       } else {
         // Set default font sizes here
-        setFontSize(fontSizes.smallScreen); // You can change this to your desired default size
-        setFontSize2(fontSizes2.smallScreen); // You can change this to your desired default size
+        setFontSize(fontSizes.xsmallScreen); // You can change this to your desired default size
+        setFontSize2(fontSizes2.xsmallScreen); // You can change this to your desired default size
       }
     };
   

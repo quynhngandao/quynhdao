@@ -8,13 +8,19 @@ video {
   opacity: .5;
 }
 @media screen and (max-width: 768px) {
-  /* Adjust video size for smaller screens */
   video {
     width: auto;
     height: auto;
     min-width: 100%;
     min-height: 100%;
-    opacity: .5;
+  }
+}
+@media screen and (min-width: 768px) {
+  video {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
