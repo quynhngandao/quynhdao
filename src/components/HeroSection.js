@@ -10,8 +10,8 @@ import {
 
 function HeroSection() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [fontSize, setFontSize] = useState(20);
-  const [fontSize2, setFontSize2] = useState(30);
+  const [fontSize, setFontSize] = useState(15);
+  const [fontSize2, setFontSize2] = useState(20);
   const springApi = useSpringRef();
 
   const name = ["Hello, I'm Quynh", "Full-Stack Developer"];
@@ -49,7 +49,7 @@ function HeroSection() {
       largeScreen: 50,
       mediumScreen: 40,
       smallScreen: 25,
-      xsmallScreen: 15,
+      xsmallScreen: 10,
     };
   
     const fontSizes2 = {
@@ -57,7 +57,7 @@ function HeroSection() {
       largeScreen: 60,
       mediumScreen: 50,
       smallScreen: 30,
-      xsmallScreen: 20,
+      xsmallScreen: 15,
     };
   
     const handleResize = () => {
