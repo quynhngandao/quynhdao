@@ -51,6 +51,7 @@ video {
     height: auto;
     min-width: 100%;
     min-height: 100%;
+    margin: auto;
   }
 }
 
@@ -63,5 +64,6 @@ video {
     height: auto;
     min-width: 100%;
     min-height: 100%;
+    margin: auto;
   }
 }
