@@ -7,6 +7,16 @@ video {
   z-index: -999;
   opacity: .5;
 }
+@media screen and (max-width: 768px) {
+  /* Adjust video size for smaller screens */
+  video {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .5;
+  }
+}
 
 /* ANIMATION */
 .container {
@@ -46,24 +56,10 @@ video {
   .hero-container {
     min-height: 100vh;
   }
-  video {
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    margin: auto;
-  }
 }
 
 @media screen and (max-width: 390px) {
   .hero-container {
     min-height: 50vh;
-  }
-  video {
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    margin: auto;
   }
 }
