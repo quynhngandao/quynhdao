@@ -1,4 +1,4 @@
-
+/* VIDEO */
 video {
   object-fit: cover;
   width: 100%;
@@ -7,29 +7,26 @@ video {
   z-index: -999;
   opacity: .5;
 }
-@media screen and (max-width: 768px) {
-  /* Adjust video size for smaller screens */
-  video {
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: .5;
-  }
-}
 
-.intro-paragraph {
-  font-family: 'fraunces';
-  font-weight: 900;
-}
-.intro-title {
-  font-family: 'fraunces';
-  font-weight: 900;
+/* ANIMATION */
+.container {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
-  vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
 
+.h1__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: font-size .5s ease;
+}
+
+/* HERO SECTION */
 .hero-container {
   /* background: url('https://vod-progressive.akamaized.net/exp=1695351645~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4728%2F9%2F248644905%2F900760521.mp4~hmac=5071e70fe2aeff888c304d72547928e9f37fbadc4653d60648ab878e7bb23844/vimeo-prod-skyfire-std-us/01/4728/9/248644905/900760521.mp4?filename=file.mp4') center center/cover no-repeat; */
   min-height: 100vh;
@@ -38,76 +35,33 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* object-fit: contain; */
   /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.601);
-  object-fit: contain;
-  z-index: -999; */
  
+  z-index: -999; */
 }
 
-.hero-container > h1 {
-  color: #fff;
-  font-size: 100px;
-  margin-top: -100px;
-}
 
-.hero-container > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.hero-btns {
-  margin-top: 32px;
-}
-
-.hero-btns .btn {
-  margin: 6px;
-}
-
-.fa-play-circle {
-  margin-left: 4px;
-}
-
-@media screen and (max-width: 960px) {
-  .hero-container{
+@media screen and (min-width: 768px) {
+  .hero-container {
     min-height: 100vh;
   }
-  .hero-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
-
+  video {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .hero-container > h1 {
-
-    font-size: 50px;
-    margin-top: -100px;
+@media screen and (max-width: 390px) {
+  .hero-container {
+    min-height: 50vh;
   }
-
-  .hero-container > p {
-    font-size: 30px;
+  video {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
   }
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn {
-    width: 100%;
-  }
-}
-
-@media screen and (min-height: 800px) {
-  
-.hero-container {
- 
-  min-height: 100vh;
-
-}
 }
