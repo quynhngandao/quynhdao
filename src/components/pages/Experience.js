@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div className="pr-2 m-4">
       <h2 className="my-10 text-4xl font-extrabold tracking-tight text-center text-gray-200 md:text-5xl">
-            <a href={resume} target="_blank" rel="noopener noreferrer">
+        <a href={resume} target="_blank" rel="noopener noreferrer">
           Experience
         </a>
       </h2>
@@ -37,7 +37,7 @@ function Experience() {
                 Associate of Arts, Liberal Arts{" "}
               </p>
 
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
                 Attended PSEO full-time
               </p>
             </div>
@@ -68,17 +68,17 @@ function Experience() {
                 Bachelor of Science, Animal Science{" "}
               </p>
 
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
                 Studied Animal Science while taking Premed prerequisites
               </p>
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
                 Worked various jobs, including waitress, tutor, undergrad
                 researcher, and healthcare positions
               </p>
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
                 Served as a board member for student groups
               </p>
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
                 Volunteered at hospitals and animal shelters
               </p>
             </div>
@@ -105,26 +105,21 @@ function Experience() {
               <h2 className="text-lg font-bold text-gray-100 dark:text-white">
                 Prime Digital Academy{" "}
               </h2>
-              
+
               <p className="font-semibold text-gray-100 text-md dark:text-white">
                 Full-Stack Software Engineering Certification{" "}
               </p>
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
-                Proficient in HTML/CSS, JavaScript, React, Node.js, PostgreSQL,
-                Tailwind CSS, and Material UI
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
+                Built full-stack projects using JavaScript, React, Node.js,
+                Express.js, PostgreSQL, and Tailwind CSS/Material UI
               </p>
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
-                Explored modern technologies/languages, including C#/.NET,
-                Multer, Heroku, Redis, Docker, APIs, and Figma
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
+                Gained experience using C#/.NET, Multer, Heroku, Redis, Docker,
+                and APIs
               </p>
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
-                Designed project wireframes and collaborated with UX/UI
-                designers
-              </p>
-              <p className="font-normal text-left text-gray-100 dark:text-gray-400">
-                Gained experience in public speaking, presentations,
-                professional skill development, diversity, equity, and inclusion
-                initiatives
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
+                Designed project wireframes with Figma and collaborated with
+                UX/UI designers
               </p>
             </div>
           </li>
