@@ -11,7 +11,7 @@ function Experience() {
       </h2>
       <div className="flex items-center justify-center ">
         <ol className="list-none sm:flex">
-          <li className="relative mb-6 md:w-1/4 sm:mb-0">
+          <li className="relative mb-6 md:w-1/2 sm:mb-0">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                 <svg
@@ -26,12 +26,12 @@ function Experience() {
               </div>
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
             </div>
-            <div className="mt-5 sm:pr-8">
+            <div className="mt-5 sm:pr-8 md:pr-8">
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-100">
                 Sept 2014 - May 2016
               </time>
               <h2 className="text-lg font-bold text-gray-100 dark:text-white">
-                North Hennepin Community College
+                North Hennepin College
               </h2>
               <p className="font-semibold text-gray-100 text-md dark:text-white">
                 Associate of Arts, Liberal Arts{" "}
@@ -98,7 +98,7 @@ function Experience() {
               </div>
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
             </div>
-            <div className="mt-5 sm:pr-10">
+            <div className="mt-5 sm:pr-10 md:pr-10">
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-100">
                 May 2023 - Sept 2023
               </time>
@@ -110,16 +110,52 @@ function Experience() {
                 Full-Stack Software Engineering Certification{" "}
               </p>
               <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
-                Built full-stack projects using JavaScript, React, Node.js,
-                Express.js, PostgreSQL, and Tailwind CSS/Material UI
+                Built full-stack projects with Javascript, SQL, React, Node,
+                APIs, Git, and UI frameworks
               </p>
               <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
-                Gained experience using C#/.NET, Multer, Heroku, Redis, Docker,
-                and APIs
+                Designed project wireframes, applied agile/SDLC methodologies, and collaborated with developers and UX/UI designers 
+              </p>
+            </div>
+          </li>
+          <li className="relative mb-6 md:w-1/2 sm:mb-0">
+            <div className="flex items-center">
+              <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg
+                  className="w-2.5 h-2.5 text-blue-700 dark:text-blue-300"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                </svg>
+              </div>
+              <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            </div>
+            <div className="mt-5 sm:pr-10 md:pr-10">
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-100">
+                Sept 2023 - Current
+              </time>
+              <h2 className="text-lg font-bold text-gray-100 dark:text-white">
+                Continuing Education
+              </h2>
+
+              <p className="font-semibold text-gray-100 text-md dark:text-white">
+                What I've been up to ...
               </p>
               <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
-                Designed project wireframes with Figma and collaborated with
-                UX/UI designers
+                Contributing to open-source projects on Github
+              </p>
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
+                Attending networking events within the tech community
+              </p>
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
+                Attending Frontend Masters coding workshops
+              </p>
+              <p className="font-normal text-left text-gray-100 sm:text-xs md:text-sm dark:text-gray-400">
+                TBD: Full-stack project with other developers from Prime Digital
+                Academy
               </p>
             </div>
           </li>
