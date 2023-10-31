@@ -1,6 +1,7 @@
 import React from "react";
 import genderstanding from "./genderstanding.png";
 import playwme from "./playwme.png";
+import PHPet from './phpet.png'
 import { CardMedia, CardContent } from "@mui/material";
 
 function Projects() {
@@ -15,16 +16,20 @@ function Projects() {
           Projects{" "}
         </a>
       </h2>
+
       <div className="flex flex-col items-center ">
         <div
-         style={{width:"85%"}}
+          style={{ width: "85%" }}
           className="flex flex-col gap-12 sm:flex-row"
         >
-          <div  style={{
-            border: ".25px solid rgba(173, 181, 189, 0.5)", 
-            borderRadius:"12px",
-            transition: "border-color 0.3s ease"
-          }} className="w-full hover:scale-105">
+          <div
+            style={{
+              border: ".25px solid rgba(173, 181, 189, 0.5)",
+              borderRadius: "12px",
+              transition: "border-color 0.3s ease",
+            }}
+            className="w-full hover:scale-105"
+          >
             <h3 className="pt-5 pb-0 text-center">
               <a
                 style={{ color: "white" }}
@@ -70,11 +75,11 @@ function Projects() {
               </li>
             </ul>
           </div>
-
+{/* PLAYwME */}
           <div
             style={{
-              border: ".25px solid rgba(173, 181, 189, 0.5)", 
-              borderRadius:"12px",
+              border: ".25px solid rgba(173, 181, 189, 0.5)",
+              borderRadius: "12px",
             }}
             className="w-full hover:border-white hover:scale-105"
           >
@@ -93,7 +98,7 @@ function Projects() {
               sx={{
                 maxHeight: 350,
                 minWidth: 350,
-                maxWidth: "80%",
+                maxWidth: "75%",
                 mx: "auto", // Center horizontally
                 display: "block", // Remove any default inline styles
                 zIndex: 10,
@@ -123,6 +128,59 @@ function Projects() {
               </li>
             </ul>
           </div>
+{/* PHPet */}
+          <div
+            style={{
+              border: ".25px solid rgba(173, 181, 189, 0.5)",
+              borderRadius: "12px",
+            }}
+            className="w-full hover:border-white hover:scale-105"
+          >
+            <h3 className="pt-5 pb-0 text-center">
+              <a
+                style={{ color: "white" }}
+                href="https://github.com/quynhngandao/PHPet"
+              >
+                PHPet
+              </a>
+            </h3>
+            <CardMedia
+              component="img"
+              image={PHPet}
+              alt="PHPer"
+              sx={{
+                maxHeight: 350,
+                minWidth: 350,
+                maxWidth: "80%",
+                mx: "auto", // Center horizontally
+                display: "block", // Remove any default inline styles
+                zIndex: 10,
+              }}
+            />
+            <CardContent
+              sx={{ zIndex: 10, pb: 0, mx: 5, color: "white", flexGrow: 1 }}
+            >
+              <p className="text-center">
+                A full-stack web application that allow users to create adoption/re-homing postings and set up play-date with local animals (replica of PLAYwME using PHP)
+              </p>
+            </CardContent>
+            <ul className="z-10 actions special">
+              <li>
+                <a
+                  style={{
+                    borderRadius: 10,
+                    verticalAlign: "middle",
+                    color: "white",
+                  }}
+                  href="https://github.com/quynhngandao/PHPet"
+                  className="button"
+                >
+                  See Project
+                </a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
       </div>
     </div>
